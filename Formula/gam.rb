@@ -8,8 +8,8 @@ class Gam < Formula
 
   def install
     prefix.install Dir["*"]
-    prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox (Good Eggs)/GAM/client_secrets.json" => "client_secrets.json"
-    prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox (Good Eggs)/GAM/oauth2service.json" => "oauth2service.json"
+    prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox/GAM/client_secrets.json" => "client_secrets.json"
+    prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox/GAM/oauth2service.json" => "oauth2service.json"
     bin.install_symlink prefix/"gam.py" => "gam"
   end
 
