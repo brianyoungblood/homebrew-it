@@ -2,7 +2,7 @@
 class Gam < Formula
   homepage "https://github.com/jay0lee/GAM"
   url "https://github.com/jay0lee/GAM/archive/v3.61.tar.gz"
-  version "3.51"
+  version "3.61"
   sha256 "acd73486047bcd8d26bf164363d9d9d6e48acf99632e7ca658ebbe6c554e844b9"
   head "https://github.com/jay0lee/GAM.git"
 
