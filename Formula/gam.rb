@@ -1,9 +1,9 @@
 
 class Gam < Formula
   homepage "https://github.com/jay0lee/GAM"
-  url "https://github.com/jay0lee/GAM/archive/v3.61.tar.gz"
-  version "3.61"
-  sha256 "acd73486047bcd8d26bf164363d9d9d6e48acf99632e7ca658ebbe6c554e844b"
+  url "https://github.com/jay0lee/GAM/archive/v3.65.tar.gz"
+  version "3.65"
+  sha256 "02ee1a5f5fcff5cd65a73786221a3a35fab38c12675060f8d0a0331216ca141c"
   head "https://github.com/jay0lee/GAM.git"
 
   def install
@@ -14,6 +14,6 @@ class Gam < Formula
   end
 
   test do
-    system "#{bin}/gam | grep 'GAM 3.61'"
+    system "#{bin}/gam | grep 'GAM 3.65'"
   end
 end
