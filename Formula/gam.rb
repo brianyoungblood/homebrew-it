@@ -10,7 +10,8 @@ class Gam < Formula
     prefix.install Dir["*"]
     prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox/GAM/client_secrets.json" => "client_secrets.json"
     prefix.install_symlink "/Users/#{ENV["USER"]}/Dropbox/GAM/oauth2service.json" => "oauth2service.json"
-    bin.install_symlink prefix/"gam.py" => "gam"
+   # bin.install_symlink prefix/"src/gam.py" => "gam"
+    system "src/gam-install.sh"
   end
 
   test do
