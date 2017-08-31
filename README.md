@@ -9,7 +9,12 @@ The IT Team's Homebrew formulae.
 ## Installation
 
 ```
-brew tap goodeggs/it
+brew tap brianyoungblood/it
 brew install gam
 ```
+## Uninstall
 
+```
+brew uninstall gam
+brew untap brianyoungblood/it
+```
