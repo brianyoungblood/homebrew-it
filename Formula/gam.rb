@@ -1,8 +1,8 @@
 class Gam < Formula
   desc "Command-line management for Google G Suite"
   homepage "https://github.com/jay0lee/GAM/wiki"
-  url "https://github.com/jay0lee/GAM/archive/v4.30.tar.gz"
-  sha256 "846b2902fe36019a9f4ebd4a911e780e103fb2d210971b8a4e407ddb6d8db4f6"
+  url "https://github.com/jay0lee/GAM/archive/gam-5.10-macos-x86_64-MacOS10.15.4.tar.xz"
+  sha256 "4fe358d202ea98a326e796fc0c055602fd2c92319aff0b4417da1f802e99c685"
   head "https://github.com/jay0lee/GAM.git"
 
   def install
